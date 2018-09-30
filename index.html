@@ -57,13 +57,20 @@
 
 
 	</header>
-<div class=pic>
-	
-    <img src="img/my-01.jpg" alt="個人照片">
+<div class=pic >
+
+	<picture>
+    <source srcset="large.jpg, large-2x.jpg 2x" media="(min-width: 960px)">
+    <source srcset="middle.jpg, middle-2x.jpg 2x" media="(min-width: 720px)">
+    <source srcset="small.jpg, small-2x.jpg 2x" media="(max-width: 480px)">
+    <img src="img/my-01.jpg" alt="My default image">
+</picture>
+    
+   <!--  <img src="img/my-01.jpg" alt="個人照片"> -->
 
 </div>
 
-<div class=text>
+<div class=text >
 	
 	<p>
 	&emsp;&emsp;你好，我是黃尚薇，今年剛畢業的社會新鮮人，平日對於身邊不同的事物都有好奇心，喜歡嘗試，也有一顆更替他人著想的心，與人相處遇到困難時，擅長用溝通的方式解決。<br>
@@ -74,7 +81,7 @@
 	<p>（可直接在下方傳送郵件）</p>
 </div>
 
-<div class=email>
+<div class=email >
 
 	<form method="POST" action="https://formspree.io/toothpick613@gmail.com">
 	<p>Email Address</p>	
@@ -105,6 +112,7 @@
 </div>
 
 <script src="https://squaresend.com/squaresend.js"></script>
+<script src="picturefill.js"></script>
 
 <script src="js/jquery-3.2.1.min.js"></script>
 
