@@ -102,18 +102,18 @@ nav li a:hover{
 
 
 .text p{
-	font-size:2.7vmin;
+	font-size:1.27vmax;
 	text-align:left;
 	color:#4f4f4f;
 	letter-spacing:3px;
-	line-height:28px;
+	line-height:5vmin;
 
 }
 
 .text h3{
 	margin-top:10px;
 	color:#3c5860;
-	font-size:16px;
+	font-size:1.27vmax;
 	font-weight:900;
 }
 
