@@ -1,0 +1,182 @@
+/*######版面設計######*/
+
+html,body {
+	margin:0px;
+	padding:0px;
+	font-family: 'PingFant TC',sans-serif;
+}
+
+
+header{
+	margin-top: 20px;
+	margin-bottom: 50px;
+	margin-left:0px;
+	overflow: hidden;
+}
+
+
+
+
+footer{
+	margin-bottom: 30px;
+
+}
+
+/*##### 細節設計 #####*/
+
+#banner{
+	float: left;
+}
+
+#banner h1{
+	margin: 20px 0px 0px 0px;
+}
+
+#banner img{
+	vertical-align: bottom;
+	width: 350px;
+}
+
+nav{
+	float: right;
+	margin: 0px 0px 0px 0px;
+	font-size: 20px;
+	font-family: 'Kanit', sans-serif;
+	font-weight: 500;
+	
+}
+
+nav ul{
+	margin: 50px 0px 0px 0px;
+	padding: 0;
+}
+
+nav li{
+	list-style-type: none;
+	float: left;
+
+}
+
+nav li a {
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px ;
+    text-decoration: none;
+    color: #f05347;
+    border-bottom: solid 3px transparent;
+}
+
+nav li a:hover{
+	border-bottom-color:#aac2c9;
+}
+
+
+
+.pic{
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:800px;
+	
+}
+
+.pic img{
+	margin-left:auto;
+	margin-right:auto;
+	width:800px;
+	}
+
+.text{
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:700px;
+	margin-top:30px;
+	margin-bottom:30px;
+	
+}
+
+.text p{
+	font-size:16px;
+	text-align:left;
+	color:#4f4f4f;
+	letter-spacing:3px;
+	line-height:28px;
+
+}
+
+.text h3{
+	margin-top:10px;
+	color:#3c5860;
+	font-size:16px;
+	font-weight:900;
+}
+
+.email{
+	margin-bottom:30px;
+}
+
+.email form{
+	margin-left:300px;
+
+
+}
+
+.email p{
+	margin-bottom:5px;
+	font-size:14px;
+	color:#3c5860;
+	font-weight:500;
+}
+
+.email input{
+	margin-bottom:20px;
+	width:500px;
+	border-radius:3px;
+	border:solid 1px #3c5860;
+	opacity:0.7;
+	
+}
+
+.email textarea{
+	margin-bottom:20px;
+	width:500px;
+	height:300px;
+	border-radius:3px;
+	border:solid 1px #3c5860;
+	opacity:0.7;
+	
+}
+
+
+
+
+
+
+/*### FOOTER ###*/
+.back{
+	margin-top:30px;
+	margin-bottom:50px;
+
+}
+
+.back a h1{
+	padding:30px;
+	font-family: 'Kanit', sans-serif;
+	font-weight: 400;
+	color:#6b96a2;
+	font-size:20px;
+	text-align:center;
+	text-decoration: none;
+	transition-duration: 1s;
+
+
+}
+
+.back a h1:hover{
+  color:#f05347;
+
+}
+
+
