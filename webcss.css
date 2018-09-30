@@ -84,7 +84,8 @@ nav li a:hover{
 .pic img{
 	margin-left:auto;
 	margin-right:auto;
-	width:800px;
+	width:100%;
+	height:auto;
 	}
 
 .text{
@@ -97,8 +98,11 @@ nav li a:hover{
 	
 }
 
+
+
+
 .text p{
-	font-size:16px;
+	font-size:2.7vmin;
 	text-align:left;
 	color:#4f4f4f;
 	letter-spacing:3px;
